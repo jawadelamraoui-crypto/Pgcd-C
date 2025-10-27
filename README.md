@@ -1,2 +1,0 @@
-# Pgcd
-Math projecte

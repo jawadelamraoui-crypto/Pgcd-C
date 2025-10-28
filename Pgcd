@@ -1,0 +1,18 @@
+int main() {
+    int A, B, r;
+
+    printf("Entrez la valeur du dividende A : ");
+    scanf("%d", &A);
+
+    printf("Entrez la valeur du diviseur B : ");
+    scanf("%d", &B);
+
+    while (B != 0) {
+        r = A % B;
+        A = B;
+        B = r;
+    }
+
+    printf("Le PGCD est : %d\n", A);
+
+    return 0;

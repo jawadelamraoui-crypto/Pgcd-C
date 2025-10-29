@@ -2,9 +2,9 @@ Algorithme PGCD_EUCLIDE
 Variables
    A, B, r : entier
 Début
-   Ecrire("Entrez la valeur du premier nombre A : ")
+   Ecrire("Entrez la valeur de devidante A : ")
    Lire(A)
-   Ecrire("Entrez la valeur du deuxième nombre B : ")
+   Ecrire("Entrez la valeur de deviseure B : ")
    Lire(B)
    TantQue (B <> 0) faire
         r ← A mod B
